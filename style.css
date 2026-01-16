@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-container {
+    background-color: rgba(82, 80, 80, 0.277);
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 20px;
+    border: 0.1px solid hsla(75, 94%, 57%, 0.299);
+}
+
+img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid hsla(75, 94%, 57%, 0.405);
+    object-fit: cover;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+img.avatar:hover {
+    box-shadow: 0 0 10px hsl(75, 94%, 57%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.p {
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pp {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+
+.social-links ul {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    width: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social-links-lista {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+}
+
+.social-links-lista li {
+    display: flex;
+    width: 200%;
+}
+
+.link {
+    background-color: rgba(70, 67, 67, 0.884);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid hsla(75, 94%, 57%, 0.299);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
